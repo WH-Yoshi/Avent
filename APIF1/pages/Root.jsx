@@ -9,7 +9,9 @@ export default function Root (props) {
         <Layout>
             <Header>
                <nav>
-                    {/* Navbar */}
+                    <a href="/Main">Main</a>
+                    <a href="/Seasons">Seasons</a>
+                    <a href="/Drivers">Drivers</a>
                </nav>
             </Header>
             <Content>
