@@ -18,16 +18,13 @@ export default function Drivers (props) {
     }, []);
 
     return (
-    <Layout>
-        <Content>
-        <List
-            bordered
-            dataSource={drivers}
-            renderItem={(driver) => (
-            <List.Item>{driver.givenName + " " + driver.familyName}</List.Item>
-            )}
-        />
-        </Content>
-    </Layout>
+        <>
+            <h1>Page Drivers</h1>
+            <ul>
+                {drivers.map((driver) => {
+                    return <li key={driver.driverId}>{driver.givenName} {driver.familyName}</li>;
+                })}
+            </ul>
+        </>
     );
 }

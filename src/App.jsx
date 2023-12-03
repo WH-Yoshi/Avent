@@ -4,6 +4,7 @@ import Root from './pages/Root';
 import Seasons from './pages/Season';
 import Drivers from './pages/Drivers';
 import Main from './pages/Main';
+import Teams from './pages/Teams';
 
 import './style.scss';
 
@@ -25,6 +26,10 @@ function App() {
         {
           path: 'Main',
           element: <Main/>
+        },
+        {
+          path: 'Teams',
+          element: <Teams/>
         },
         {
           path: '*',

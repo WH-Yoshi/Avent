@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '/images/F1_white.png';
+import { Outlet } from 'react-router';
 
 
 export default function Root (props) {
@@ -23,7 +24,7 @@ export default function Root (props) {
                 </div>
             </div>
             <div className="content">
-                {props.children}
+                <Outlet/>  
             </div>
             <div className='footer'>
                 <div className="links">
