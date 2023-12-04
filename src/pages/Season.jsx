@@ -25,10 +25,9 @@ export default function Seasons(props) {
       <section className="tracks">
         <div className="container">
           <h1 className="title">2023 race results by tracks</h1>
-          <div className="line"></div>
           <ul className="list">
             <li className="item">
-              <p className="text">Round {constructorData[0]?.round}</p>
+            <p className="text">Round {constructorData[0]?.round}</p>
               <h2 className="country">
                 {constructorData[0]?.Circuit.Location.country}
               </h2>
