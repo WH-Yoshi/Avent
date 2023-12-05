@@ -1,7 +1,9 @@
+import Standings from './components/driverstandings';
+
 export default function Main(props) {
   return(
     <>
-      <h1>Page Main</h1>
+      <Standings />
     </>
   )
 }

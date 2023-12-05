@@ -1,0 +1,114 @@
+
+*{
+    text-decoration: none;
+    font-weight: 300;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
+.main{
+    margin: 2%;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light, normal;
+    height: 80vh;
+    background: url('/API/public/images/champion_bg.png');
+
+    .title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+        font-family: 'Squada One', sans-serif;
+
+        h1{
+            padding-top: 2%;
+            padding-bottom:2% ;
+        }
+    }
+
+    .drivers{
+        display: flex;
+        color:white;
+
+        .drivers-first{
+            height: 50vh;
+        }
+
+        .drivers-second{
+            border: 5px solid #FFF;
+            border-radius: 20px;
+            width: 20rem;
+            height: fit-content;
+
+            .top{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 5%;
+
+                
+            }
+
+            .btm{
+                width: auto;
+                border-top: 3px solid #FFF;
+                border-bottom: 3px solid #FFF;
+                margin-bottom: 4%;
+                margin-left: 10%;
+                margin-right: 10%;
+                display: flex;
+                justify-content: center;
+                
+                .btm-left{
+                    justify-content: flex-start;
+                    width: 50%;
+                    display: flex;
+                    .btm-left-lft{
+                        width: 15%;
+                        h1{
+                            font-size: 3rem;
+                            height: 100%;
+                            
+                        }
+                    }
+                    
+                    .btm-left-rght{
+                        padding-left: 8%;
+                        width: 50%;
+                        h2{
+                            font-size: 1.25rem;
+                           
+                        }
+                        h1{
+                            font-size: 2rem;
+                            
+                        }
+                    }
+                }
+
+                .btm-right{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 50%;
+                    h2{
+                        font-size: 1.3rem;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    h1{
+                        font-size: 1.5rem;
+                    }
+
+                    .btm-right-rght{
+                        padding-left: 3%;
+                    }
+                }
+                
+            }
+        }
+    }
+}

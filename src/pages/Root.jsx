@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '/images/F1_white.png';
 import { Outlet } from 'react-router';
-
+import Standings from './components/driverstandings';
 
 export default function Root (props) {
     
@@ -26,6 +26,7 @@ export default function Root (props) {
             <div className="content">
                 <Outlet/>  
             </div>
+            <Standings />
             <div className='footer'>
                 <div className="links">
                     <div className='menu'>
@@ -42,6 +43,7 @@ export default function Root (props) {
                         <a href="http://ergast.com/mrd/" target="_blank" rel="noopener noreferrer">Ergast API</a>
                     </div>
                 </div>
+                
                 <div className="foot">
                     <a href="/"><img src={logo} alt="logo" className='logo'/></a>
                     <p>Developed by Abs, Van Eenoo, Kurshubadze</p>
