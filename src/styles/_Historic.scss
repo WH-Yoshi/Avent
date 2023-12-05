@@ -1,8 +1,18 @@
+@import 'variables';
 .historicontainer {
     padding: 82px 75px 90px 75px;
     .presentation {
+        background: linear-gradient(270deg, rgba(225, 6, 0, 0.24) 35.14%, #960000 99.97%), url(<path-to-image>), lightgray 50% / cover no-repeat;
         background-image: url('/public/images/mp4-4.png');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center center;
+        border-radius: 0px 10px 10px 0px;
+        height: 400px;
+        width: auto;
+        padding: 20px 20px 20px 0;
+        border-top: 5px solid $F1-color;
+        border-bottom: 5px solid $F1-color;
+        border-right: 5px solid $F1-color;
     }
 }
