@@ -5,6 +5,7 @@ import Seasons from './pages/Season';
 import Drivers from './pages/Drivers';
 import Main from './pages/Main';
 import Teams from './pages/Teams';
+import Historic from './pages/Historic';
 
 import './style.scss';
 
@@ -30,6 +31,10 @@ function App() {
         {
           path: 'Teams',
           element: <Teams/>
+        },
+        {
+          path: 'Historic',
+          element: <Historic/>
         },
         {
           path: '*',
