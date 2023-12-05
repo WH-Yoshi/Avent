@@ -35,8 +35,29 @@ export default function Standings(props){
                 </article>
 
                 <article class="drivers-first">
-                        <img class="second" scr="/images/F1.png"></img>
-                        
+                <article class="top">
+                        <img class="second" src="/images/verstappen.png" ></img>
+                    </article>
+                    <article class="btm">
+                        <article class="btm-left">
+                            <article class="btm-left-lft">
+                                <h1>11</h1>
+                            </article>
+                            <article class="btm-left-rght">
+                                <h2>SERGIO</h2>
+                                <h1>PEREZ</h1>
+                            </article>
+                        </article>
+                        <article class="btm-right">
+                            <article class="btm-right-lft">
+                                <h2>2E</h2>
+                                <h1>285PTS</h1>
+                            </article>
+                            <article class="btm-right-rght">
+                                <img class="flag" src="/images/netherlands.png"></img>
+                            </article>
+                        </article>
+                    </article>
                 </article>
 
                 <article class="drivers-second">
@@ -66,7 +87,6 @@ export default function Standings(props){
                 </article>
             </section>
         </section>
-        <img class="flag" src="/images/champion_bg.png"></img>
         
         </>
     );

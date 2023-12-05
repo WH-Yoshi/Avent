@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '/images/F1_white.png';
 import { Outlet } from 'react-router';
-import Standings from './components/driverstandings';
 
 export default function Root (props) {
     
@@ -15,8 +14,9 @@ export default function Root (props) {
     return (
         <>
             <div className="header">
-                <Link href="/" className={activeMenu === '' ? 'active' : ''} onClick={() => handleMenuClick('')}><img src={logo} alt="logo" className='logo' /></Link>
+                <Link href="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}><img src={logo} alt="logo" className='logo' /></Link>
                 <div className="navbar">
+                    <Link to="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}>Home</Link>
                     <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
                     <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
                     <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
@@ -26,7 +26,7 @@ export default function Root (props) {
             <div className="content">
                 <Outlet/>  
             </div>
-            <Standings />
+            
             <div className='footer'>
                 <div className="links">
                     <div className='menu'>

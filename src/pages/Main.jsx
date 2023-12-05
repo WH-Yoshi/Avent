@@ -1,9 +1,140 @@
-import Standings from './components/driverstandings';
 
 export default function Main(props) {
   return(
     <>
-      <Standings />
+      <section class="main">
+            <article class="title">
+                <h1>DRIVER STANDINGS 2023</h1>
+            </article>
+            <section class="drivers">
+                <article class="drivers-second">
+                    <article class="top">
+                        <img class="perez" src="/images/perez.png" ></img>
+                    </article>
+                    <article class="btm">
+                        <article class="btm-left">
+                            <article class="btm-left-lft">
+                                <h1>11</h1>
+                            </article>
+                            <article class="btm-left-rght">
+                                <h2>SERGIO</h2>
+                                <h1>PEREZ</h1>
+                            </article>
+                        </article>
+                        <article class="btm-right">
+                            <article class="btm-right-lft">
+                                <h2>2E</h2>
+                                <h1>285PTS</h1>
+                            </article>
+                            <article class="btm-right-rght">
+                                <img class="flag" src="/images/mexico.png"></img>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+
+                <article class="drivers-first">
+                <article class="top">
+                        <img class="first" src="/images/verstappen.png" ></img>
+                    </article>
+                    <article class="btm">
+                        <article class="btm-left">
+                            <article class="btm-left-lft">
+                                <h1>1</h1>
+                            </article>
+                            <article class="btm-left-rght">
+                                <h2>MAX</h2>
+                                <h1>VERSTAPPEN</h1>
+                            </article>
+                        </article>
+                        <article class="btm-right">
+                            <article class="btm-right-lft">
+                                <h2>1ER</h2>
+                                <h1>500PTS</h1>
+                            </article>
+                            <article class="btm-right-rght">
+                                <img class="flag" src="/images/netherlands.png"></img>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+
+                <article class="drivers-second">
+                    <article class="top">
+                        <img class="lewis" src="/images/lewis.png" ></img>
+                    </article>
+                    <article class="btm">
+                        <article class="btm-left">
+                            <article class="btm-left-lft">
+                                <h1>44</h1>
+                            </article>
+                            <article class="btm-left-rght">
+                                <h2>LEWIS</h2>
+                                <h1>HAMILTON</h1>
+                            </article>
+                        </article>
+                        <article class="btm-right">
+                            <article class="btm-right-lft">
+                                <h2>3E</h2>
+                                <h1>234PTS</h1>
+                            </article>
+                            <article class="btm-right-rght">
+                                <img class="flag" src="/images/united-kingdom.png"></img>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+            </section>
+            <section class="champion">
+              <article class="content">
+                  <h1>2023 CHAMPION TEAM</h1>
+                  <img src="/images/Red-Bull-logo.png"></img>
+              </article>
+            </section>
+        </section>
+
+      <section class="middle">
+
+        <section id="season" class="card">
+          <article class="top">
+            <h1>SEASON</h1>
+            <img class="grid" src="/images/grid.png"></img>
+          </article>
+          <article class="btm">
+            <p>Check every Grand Prix results</p>
+          </article>
+        </section>
+
+        <section id="drivers" class="card">
+          <article class="top">
+            <h1>DRIVERS</h1>
+            <img class="driver" src="/images/driver.png"></img>
+          </article>
+          <article class="btm">
+            <p>Check every drivers of the 2023 season</p>
+          </article>
+        </section>
+
+        <section id="teams" class="card">
+          <article class="top">
+            <h1>TEAMS</h1>
+            <img class="team" src="/images/racing.png"></img>
+          </article>
+          <article class="btm">
+            <p>Check every Formula 1 Teams</p>
+          </article>
+        </section>
+
+        <section id="historic" class="card">
+          <article class="top">
+            <h1>HISTORIC</h1>
+            <img class="formula" src="/images/formula.png"></img>
+          </article>
+          <article class="btm">
+            <p>Check memories from the past </p>
+          </article>
+        </section>
+      </section>
     </>
   )
 }
