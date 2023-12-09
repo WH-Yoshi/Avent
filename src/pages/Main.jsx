@@ -27,15 +27,14 @@ export default function Main(props) {
                                 <h1>285PTS</h1>
                             </article>
                             <article class="btm-right-rght">
-                                <img class="flag" src="/images/mexico.png"></img>
+                                <img class="flag" src="/images/flags/mexican.png"></img>
                             </article>
                         </article>
                     </article>
                 </article>
-
                 <article class="drivers-first">
                 <article class="top">
-                        <img class="first" src="/images/verstappen.png" ></img>
+                        <img class="first" src="/images/max_verstappen.png" ></img>
                     </article>
                     <article class="btm">
                         <article class="btm-left">
@@ -53,7 +52,7 @@ export default function Main(props) {
                                 <h1>500PTS</h1>
                             </article>
                             <article class="btm-right-rght">
-                                <img class="flag" src="/images/netherlands.png"></img>
+                                <img class="flag" src="/images/flags/dutch.png"></img>
                             </article>
                         </article>
                     </article>
@@ -61,7 +60,7 @@ export default function Main(props) {
 
                 <article class="drivers-second">
                     <article class="top">
-                        <img class="lewis" src="/images/lewis.png" ></img>
+                        <img class="lewis" src="/images/hamilton.png" ></img>
                     </article>
                     <article class="btm">
                         <article class="btm-left">
@@ -79,7 +78,7 @@ export default function Main(props) {
                                 <h1>234PTS</h1>
                             </article>
                             <article class="btm-right-rght">
-                                <img class="flag" src="/images/united-kingdom.png"></img>
+                                <img class="flag" src="/images/flags/british.png"></img>
                             </article>
                         </article>
                     </article>
@@ -95,16 +94,19 @@ export default function Main(props) {
 
       <section class="middle">
 
-        <section id="season" class="card">
-          <article class="top">
-            <h1>SEASON</h1>
-            <img class="grid" src="/images/grid.png"></img>
-          </article>
-          <article class="btm">
-            <p>Check every Grand Prix results</p>
-          </article>
-        </section>
+        <a class="link-card" href="">
+          <section id="season" class="card">
+            <article class="top">
+              <h1>SEASON</h1>
+              <img class="grid" src="/images/grid.png"></img>
+            </article>
+            <article class="btm">
+              <p>Check every Grand Prix results</p>
+            </article>
+          </section>
+        </a>
 
+      <a class="link-card" href="">
         <section id="drivers" class="card">
           <article class="top">
             <h1>DRIVERS</h1>
@@ -114,7 +116,8 @@ export default function Main(props) {
             <p>Check every drivers of the 2023 season</p>
           </article>
         </section>
-
+      </a>
+      <a class="link-card" href="">
         <section id="teams" class="card">
           <article class="top">
             <h1>TEAMS</h1>
@@ -124,7 +127,9 @@ export default function Main(props) {
             <p>Check every Formula 1 Teams</p>
           </article>
         </section>
-
+        </a>
+        
+        <a class="link-card" href="">
         <section id="historic" class="card">
           <article class="top">
             <h1>HISTORIC</h1>
@@ -133,7 +138,7 @@ export default function Main(props) {
           <article class="btm">
             <p>Check memories from the past </p>
           </article>
-        </section>
+        </section></a>
       </section>
 
       <section class="bottom">
