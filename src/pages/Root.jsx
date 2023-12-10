@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '/images/F1_white.png';
 import { Outlet } from 'react-router';
 import ScrollToTop from "./scripts/ScrollToTop";
@@ -11,16 +11,16 @@ export default function Root (props) {
     const handleMenuClick = (menuName) => {
         setActiveMenu(menuName);
     }
-
+ 
     return (
         <>
             <div className="header">
-                <Link href="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}><img src={logo} alt="logo" className='logo' /></Link>
+                <NavLink exact href="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}><img src={logo} alt="logo" className='logo' /></NavLink>
                 <div className="navbar">
-                    <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
-                    <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
-                    <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
-                    <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historical</Link>
+                    <NavLink exact to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</NavLink>
+                    <NavLink exact to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</NavLink>
+                    <NavLink exact to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</NavLink>
+                    <NavLink exact to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historical</NavLink>
                 </div>
             </div>
             <div className="content">
@@ -32,10 +32,10 @@ export default function Root (props) {
                 <div className="links">
                     <div className='menu'>
                         <h2>Menu</h2>
-                        <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
-                        <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
-                        <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
-                        <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historic</Link>                    
+                        <NavLink exact to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</NavLink>
+                        <NavLink exact to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</NavLink>
+                        <NavLink exact to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</NavLink>
+                        <NavLink exact to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historic</NavLink>                    
                     </div>
                     <div className="sources">
                         <h2>Sources</h2>

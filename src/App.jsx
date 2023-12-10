@@ -34,6 +34,10 @@ function App() {
           element: <Teams/>
         },
         {
+          path: 'Results',
+          element: <Results/>
+        },
+        {
           path: 'Historic',
           element: <Historic/>
         },
