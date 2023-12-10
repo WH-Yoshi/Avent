@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, ScrollRestoration, createBrowserRouter } from 'react-router-dom';
 
 import Root from './pages/Root';
 import Seasons from './pages/Season';
@@ -37,7 +37,6 @@ function App() {
           path: 'Results',
           element: <Results/>
         },
-        {
           path: 'Historic',
           element: <Historic/>
         },
