@@ -1,0 +1,104 @@
+.tracks {
+    padding: 75px 0 75px 0;
+
+    .container {
+        max-width: 1920px;
+        padding-left: 75px;
+        padding-right: 75px;
+        margin: 0 auto;
+    }
+    .title {
+        width: 460px;
+        font-family: $squada;
+        font-size: 4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+
+        border-bottom: $black solid 5px;
+    }
+
+    .list{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        list-style: none;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 16px;
+            border-radius: 0px 25px 0px 0px;
+            border-top: 4px solid;
+            border-right: 4px solid;
+            border-color: $outline;
+
+            margin: 0 15px 12px 15px;
+
+            transition: border-color 0.3s ease;
+
+            &:hover .line, &:focus  .line {
+                background-color: $F1-color;
+            }
+
+            &:hover, &:focus {
+                border-color: $F1-color;
+            }
+
+            &:hover .winner, &:focus  .winner {
+                background-color: $F1-color;
+            }
+
+
+            .country {
+                font-family: $squada;
+                font-size: 48px;
+            }
+            .text {
+                font-family: $bebas;
+                font-size: 24px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: $black;
+            }
+            .line {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                width: 100%;
+                height: 2px;
+                background-color: $outline;
+                transition: background-color 0.3s ease;
+            }
+            .pic {
+                width: 267px;
+            }
+
+            .winner {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 4px 15px;
+                margin: 12px auto 0 auto;
+
+                border-radius: 5px;
+                background-color: $winner_btn;
+                transition: background-color 0.3s ease;
+
+                .trop {
+                    width: 30px;
+                    margin-right: 20px;
+                }
+
+                .win {
+                    font-family: $squada;
+                    font-size: 32px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

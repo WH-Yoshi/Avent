@@ -1,0 +1,426 @@
+
+*{
+    text-decoration: none;
+    font-weight: 300;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    margin: 2%;
+    border-radius: 15px;
+    background: url('/images/champion_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light, normal;
+    height: 90vh;
+    
+    .title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+        font-family: 'Squada One', sans-serif;
+
+        h1{
+            padding-top: 2%;
+            padding-bottom:2% ;
+        }
+    }
+
+    .drivers{
+        display: flex;
+        color:white;
+        justify-content: center;
+        align-items: center;
+
+        .flag{
+            width: 50px;
+        }
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .first{
+            width: 15rem;
+            padding-top: 5%;
+        }
+        .drivers-first{
+            border-radius: 20px;
+            width: 25rem;
+            height: fit-content;
+            margin-right: 5%;
+            margin-left: 5%;
+            border: 3px solid #FFC800;
+            background: rgba(0, 0, 0, 0.44);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 27.4px 0px #FFC800;
+            
+
+            .top{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 5%;
+            }
+
+            .btm{
+                width: auto;
+                border-top: 3px solid #FFF;
+                border-bottom: 3px solid #FFF;
+                margin-bottom: 10%;
+                margin-left: 9%;
+                margin-right: 9%;
+                display: flex;
+                justify-content: center;
+                
+                .btm-left{
+                    justify-content: flex-start;
+                    width: auto;
+                    display: flex;
+                    margin-bottom: -3px;
+                    margin-top: 5px;
+                    .btm-left-lft{
+                        width: auto;
+                        h1{
+                            font-size: 3rem;
+                            height: 100%;
+                        
+                        }
+                    }
+                    
+                    .btm-left-rght{
+                        padding-left: 8%;
+                        width: auto;
+                        margin-bottom: -3px;
+                        margin-top: 5px;
+                        h2{
+                            font-size: 1.25rem;
+                           
+                        }
+                        h1{
+                            font-size: 2rem;
+                            margin:-10px 0 -10px 0;
+                        }
+                    }
+                }
+
+                .btm-right{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 50%;
+                    margin-bottom: -3px;
+                    margin-top: 10px;
+                    h2{
+                        font-size: 1.3rem;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    h1{
+                        font-size: 1.5rem;
+                    }
+
+                    .btm-right-lft{
+                        h1{
+                            margin:-5px 0 -5px 0;
+                        }
+                    }
+
+                    .btm-right-rght{
+                        padding-left: 3%;
+                        align-content: center;
+                    }
+                }
+                
+            }
+
+        }
+
+        .drivers-second{
+            border: 3px solid #FFF;
+            border-radius: 20px;
+            width: 20rem;
+            height: fit-content;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 27.4px 0px rgba(255, 255, 255, 0.50);
+
+            .top{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 5%;
+                padding-top: 5%;
+            }
+
+            .perez{
+                flex-shrink: 0;
+            }
+
+            .lewis{
+                width: 11.97919rem;
+                height: 14.375rem;
+                flex-shrink: 0;
+                margin-top: 4%;
+            }
+
+            .btm{
+                width: auto;
+                border-top: 3px solid #FFF;
+                border-bottom: 3px solid #FFF;
+                margin-bottom: 10%;
+                margin-left: 9%;
+                margin-right: 9%;
+                display: flex;
+                justify-content: center;
+                
+                .btm-left{
+                    justify-content: flex-start;
+                    width: auto;
+                    display: flex;
+                    margin-bottom: -3px;
+                    margin-top: 5px;
+                    .btm-left-lft{
+                        width: auto;
+                        h1{
+                            font-size: 3rem;
+                            height: 100%;
+                        
+                        }
+                    }
+                    
+                    .btm-left-rght{
+                        padding-left: 8%;
+                        width: auto;
+                        margin-bottom: -3px;
+                        margin-top: 5px;
+                        h2{
+                            font-size: 1.25rem;
+                           
+                        }
+                        h1{
+                            font-size: 2rem;
+                            margin:-10px 0 -10px 0;
+                        }
+                    }
+                }
+
+                .btm-right{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 50%;
+                    margin-bottom: -3px;
+                    margin-top: 10px;
+                    h2{
+                        font-size: 1.3rem;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    h1{
+                        font-size: 1.5rem;
+                    }
+
+                    .btm-right-lft{
+                        h1{
+                            margin:-5px 0 -5px 0;
+                        }
+                    }
+
+                    .btm-right-rght{
+                        padding-left: 3%;
+                        align-content: center;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .champion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        
+        .content{
+            border: 3px solid #FFC800;
+            background: rgba(0, 0, 0, 0.44);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 27.4px 0px #FFC800;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            padding: 1% 2% 1% 2%;
+        }
+        
+        h1{
+            color:#FFC800;
+            font-size: 5rem;
+            padding-right: 3.5%;
+        }
+    }
+
+}
+
+
+.middle{
+    padding:5%;
+    display:  flex;
+    justify-content: center;
+
+    .link-card{
+        width: 25%;
+        padding: 1%;
+    }
+
+    .link-card:hover{
+        transform: scale(1.01);
+    }
+
+    #season{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0.35%, #e1070005 100%), url('/images/season.jpg'), lightgray 50% / cover no-repeat;
+        background-blend-mode: hard-light, normal;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+    }
+
+    #drivers{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0.35%, #e1070005 100%), url('/images/drivers.jpg'), lightgray 50% / cover no-repeat;
+        background-blend-mode: hard-light, normal;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+    }
+
+    #teams{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0.35%, #e1070005 100%), url('/images/f1teams.jpg'), lightgray 50% / cover no-repeat;
+        background-blend-mode: hard-light, normal;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+    }
+    
+    #historic{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0.35%, #E10600 100%, #FFF 100%), url('/images/historic_bg.jpeg'), lightgray 50% / cover no-repeat;
+        background-blend-mode: hard-light, normal;
+        background-blend-mode: hard-light, normal;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .card{
+        width: 100%;
+        margin: 1%;
+        height: 50vh;
+        padding: 0 0 15% 5%;
+        color:white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        img{
+            margin-left: 2%;
+        }
+
+        .top{
+            display: flex;
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+        .btm{
+            p{
+                font-size: 1.5rem;
+                width: 55%;
+            }
+        }
+        
+        .grid{
+            width: 2.1875rem;
+            height: 2.51563rem;
+        }
+
+        .driver{
+            width: 2.4375rem;
+            height: 2.4375rem;
+        }
+
+        .team{
+            width: 2.1875rem;
+            height: 2.40625rem;
+        }
+
+        .formula{
+            width: 2.5rem;
+            height: 2rem;
+        }
+    }
+}
+
+.bottom{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    border-radius: 0rem 1.5625rem 1.5625rem 0rem;
+    border-top: 12px solid #4E3681;
+    border-right: 12px solid #4E3681;
+    border-bottom: 12px solid #4E3681;
+    background: #FFF;
+    padding: 1% 1% 1% 0;
+    display: flex;
+
+    .left{
+        width: 60%;
+        background-color: #4E3681;
+        padding: 3.5% 0% 3.5% 2% ;
+
+        h1{
+            color:white;
+            font-size: 2rem;
+        }
+
+        h2{
+            color:white;
+            font-size: 2.5rem;
+        }
+
+        p{
+            color:white;
+            font-size: 1.5rem;
+            width: 75%;
+            font-family: 'Roboto';
+            font-weight: 500;
+            padding-bottom: 2%;
+        }
+
+        button{
+            padding: 1.5% 2% 1.5% 2%;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0px 4px 40.2px 0px rgba(255, 255, 255, 0.082);
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: rgba(204, 0, 0, 0.678);
+            box-shadow: 0px 4px 40.2px 0px rgba(255, 0, 0, 0.25);
+            color:white;
+        }
+    }
+
+    .right{
+        border-radius: 0rem 0.625rem 0.625rem 0rem;
+        background: linear-gradient(270deg, rgba(24, 23, 28, 0.00) 0%, #4E3681 100%), url('/images/pourchaire.jpg'), lightgray 50% / cover no-repeat;
+        width: 40%;
+        height: 40vh;
+        background-size: cover;
+
+    }
+}

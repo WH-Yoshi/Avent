@@ -17,6 +17,10 @@ function App() {
       element: <Root/>,
       children:[
         {
+          path: '/',
+          element: <Main/>
+        },
+        {
           path:'Seasons',
           element:<Seasons/>
         },
