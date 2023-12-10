@@ -20,7 +20,7 @@ export default function Root (props) {
                     <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
                     <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
                     <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
-                    <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historic</Link>
+                    <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historical</Link>
                 </div>
             </div>
             <div className="content">
