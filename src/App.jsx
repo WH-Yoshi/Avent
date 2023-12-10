@@ -37,6 +37,7 @@ function App() {
           path: 'Results',
           element: <Results/>
         },
+        {
           path: 'Historic',
           element: <Historic/>
         },
