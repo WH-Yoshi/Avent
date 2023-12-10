@@ -1,154 +1,154 @@
+import { Link } from 'react-router-dom';
 
 export default function Main(props) {
   return(
     <>
-      <section class="main">
-            <article class="title">
+      <section className="main">
+            <article className="title">
                 <h1>DRIVER STANDINGS 2023</h1>
             </article>
-            <section class="drivers">
-                <article class="drivers-second">
-                    <article class="top">
-                        <img class="perez" src="/images/perez.png" ></img>
+            <section className="drivers">
+                <article className="drivers-second">
+                    <article className="top">
+                        <img className="perez" src="/images/perez.png" ></img>
                     </article>
-                    <article class="btm">
-                        <article class="btm-left">
-                            <article class="btm-left-lft">
+                    <article className="btm">
+                        <article className="btm-left">
+                            <article className="btm-left-lft">
                                 <h1>11</h1>
                             </article>
-                            <article class="btm-left-rght">
+                            <article className="btm-left-rght">
                                 <h2>SERGIO</h2>
                                 <h1>PEREZ</h1>
                             </article>
                         </article>
-                        <article class="btm-right">
-                            <article class="btm-right-lft">
+                        <article className="btm-right">
+                            <article className="btm-right-lft">
                                 <h2>2E</h2>
                                 <h1>285PTS</h1>
                             </article>
-                            <article class="btm-right-rght">
-                                <img class="flag" src="/images/flags/mexican.png"></img>
+                            <article className="btm-right-rght">
+                                <img className="flag" src="/images/flags/mexican.png"></img>
                             </article>
                         </article>
                     </article>
                 </article>
-                <article class="drivers-first">
-                <article class="top">
-                        <img class="first" src="/images/max_verstappen.png" ></img>
+                <article className="drivers-first">
+                <article className="top">
+                        <img className="first" src="/images/max_verstappen.png" ></img>
                     </article>
-                    <article class="btm">
-                        <article class="btm-left">
-                            <article class="btm-left-lft">
+                    <article className="btm">
+                        <article className="btm-left">
+                            <article className="btm-left-lft">
                                 <h1>1</h1>
                             </article>
-                            <article class="btm-left-rght">
+                            <article className="btm-left-rght">
                                 <h2>MAX</h2>
                                 <h1>VERSTAPPEN</h1>
                             </article>
                         </article>
-                        <article class="btm-right">
-                            <article class="btm-right-lft">
+                        <article className="btm-right">
+                            <article className="btm-right-lft">
                                 <h2>1ER</h2>
                                 <h1>500PTS</h1>
                             </article>
-                            <article class="btm-right-rght">
-                                <img class="flag" src="/images/flags/dutch.png"></img>
+                            <article className="btm-right-rght">
+                                <img className="flag" src="/images/flags/dutch.png"></img>
                             </article>
                         </article>
                     </article>
                 </article>
 
-                <article class="drivers-second">
-                    <article class="top">
-                        <img class="lewis" src="/images/hamilton.png" ></img>
+                <article className="drivers-second">
+                    <article className="top">
+                        <img className="lewis" src="/images/hamilton.png" ></img>
                     </article>
-                    <article class="btm">
-                        <article class="btm-left">
-                            <article class="btm-left-lft">
+                    <article className="btm">
+                        <article className="btm-left">
+                            <article className="btm-left-lft">
                                 <h1>44</h1>
                             </article>
-                            <article class="btm-left-rght">
+                            <article className="btm-left-rght">
                                 <h2>LEWIS</h2>
                                 <h1>HAMILTON</h1>
                             </article>
                         </article>
-                        <article class="btm-right">
-                            <article class="btm-right-lft">
+                        <article className="btm-right">
+                            <article className="btm-right-lft">
                                 <h2>3E</h2>
                                 <h1>234PTS</h1>
                             </article>
-                            <article class="btm-right-rght">
-                                <img class="flag" src="/images/flags/british.png"></img>
+                            <article className="btm-right-rght">
+                                <img className="flag" src="/images/flags/british.png"></img>
                             </article>
                         </article>
                     </article>
                 </article>
             </section>
-            <section class="champion">
-              <article class="content">
+            <section className="champion">
+              <article className="content">
                   <h1>2023 CHAMPION TEAM</h1>
                   <img src="/images/Red-Bull-logo.png"></img>
               </article>
             </section>
         </section>
 
-      <section class="middle">
+      <section className="middle">
 
-        <a class="link-card" href="">
-          <section id="season" class="card">
-            <article class="top">
+        <Link className="link-card" to="/Seasons">
+          <section id="season" className="card">
+            <article className="top">
               <h1>SEASON</h1>
-              <img class="grid" src="/images/grid.png"></img>
+              <img className="grid" src="/images/grid.png"></img>
             </article>
-            <article class="btm">
+            <article className="btm">
               <p>Check every Grand Prix results</p>
             </article>
           </section>
-        </a>
-
-      <a class="link-card" href="">
-        <section id="drivers" class="card">
-          <article class="top">
-            <h1>DRIVERS</h1>
-            <img class="driver" src="/images/driver.png"></img>
-          </article>
-          <article class="btm">
-            <p>Check every drivers of the 2023 season</p>
-          </article>
-        </section>
-      </a>
-      <a class="link-card" href="">
-        <section id="teams" class="card">
-          <article class="top">
-            <h1>TEAMS</h1>
-            <img class="team" src="/images/racing.png"></img>
-          </article>
-          <article class="btm">
-            <p>Check every Formula 1 Teams</p>
-          </article>
-        </section>
-        </a>
-        
-        <a class="link-card" href="">
-        <section id="historic" class="card">
-          <article class="top">
-            <h1>HISTORIC</h1>
-            <img class="formula" src="/images/formula.png"></img>
-          </article>
-          <article class="btm">
-            <p>Check memories from the past </p>
-          </article>
-        </section></a>
+        </Link>
+        <Link className="link-card" to="/Drivers">
+          <section id="drivers" className="card">
+            <article className="top">
+              <h1>DRIVERS</h1>
+              <img className="driver" src="/images/driver.png"></img>
+            </article>
+            <article className="btm">
+              <p>Check every drivers of the 2023 season</p>
+            </article>
+          </section>
+        </Link>
+        <Link className="link-card" to="Teams">
+          <section id="teams" className="card">
+            <article className="top">
+              <h1>TEAMS</h1>
+              <img className="team" src="/images/racing.png"></img>
+            </article>
+            <article className="btm">
+              <p>Check every Formula 1 Teams</p>
+            </article>
+          </section>
+        </Link>
+        <Link className="link-card" to="/Historic">
+          <section id="historic" className="card">
+            <article className="top">
+              <h1>HISTORIC</h1>
+              <img className="formula" src="/images/formula.png"></img>
+            </article>
+            <article className="btm">
+              <p>Check memories from the past </p>
+            </article>
+          </section>
+        </Link>
       </section>
 
-      <section class="bottom">
-        <section class="left">
+      <section className="bottom">
+        <section className="left">
           <h1>FIA FORUMA 2 WORLD CHAMPION</h1>
           <h2>Théo Pourchaire</h2>
           <p>Watch the career highlights of newly-crowned F2 Champion, Theo Pourchaire, who secured the title on the final day of the season at Yas Marina</p>
           <button href="">WATCH NOW</button>
         </section>
-        <section class="right">
+        <section className="right">
         </section>
       </section>
     </>

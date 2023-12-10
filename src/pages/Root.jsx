@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '/images/F1_white.png';
 import { Outlet } from 'react-router';
+import ScrollToTop from "./scripts/ScrollToTop";
 
 export default function Root (props) {
     
@@ -16,7 +17,6 @@ export default function Root (props) {
             <div className="header">
                 <Link href="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}><img src={logo} alt="logo" className='logo' /></Link>
                 <div className="navbar">
-                    <Link to="/Main" className={activeMenu === 'Main' ? 'active' : ''} onClick={() => handleMenuClick('Main')}>Home</Link>
                     <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
                     <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
                     <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
@@ -24,6 +24,7 @@ export default function Root (props) {
                 </div>
             </div>
             <div className="content">
+                <ScrollToTop/>
                 <Outlet/>  
             </div>
             
@@ -31,11 +32,11 @@ export default function Root (props) {
                 <div className="links">
                     <div className='menu'>
                         <h2>Menu</h2>
-                        <Link to="/" className={activeMenu === '' ? 'active' : ''} onClick={() => handleMenuClick('')}>Home</Link>
                         <Link to="/Seasons" className={activeMenu === 'Seasons' ? 'active' : ''} onClick={() => handleMenuClick('Seasons')}>Season</Link>
                         <Link to="/Drivers" className={activeMenu === 'Drivers' ? 'active' : ''} onClick={() => handleMenuClick('Drivers')}>Drivers</Link>
                         <Link to="/Teams" className={activeMenu === 'Teams' ? 'active' : ''} onClick={() => handleMenuClick('Teams')}>Teams</Link>
-                        <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historic</Link>                    </div>
+                        <Link to="/Historic" className={activeMenu === 'Historic' ? 'active' : ''} onClick={() => handleMenuClick('Historic')}>Historic</Link>                    
+                    </div>
                     <div className="sources">
                         <h2>Sources</h2>
                         <a href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">F1.com</a>
