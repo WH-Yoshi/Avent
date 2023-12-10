@@ -16,16 +16,16 @@ function App() {
       element: <Root/>,
       children:[
         {
+          path: '/',
+          element: <Main/>
+        },
+        {
           path:'Seasons',
           element:<Seasons/>
         },
         {
           path: 'Drivers',
           element: <Drivers/>
-        },
-        {
-          path: 'Main',
-          element: <Main/>
         },
         {
           path: 'Teams',
