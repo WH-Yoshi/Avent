@@ -25,13 +25,12 @@ export default function Historic (props) {
     <>
         <div className='historicontainer'>
             <div className='presentation'>
-
+              <div className='img'>
+                <h1>1988 FORMULA ONE<br/>Belgian Grand Prix</h1>
+              </div>
             </div>
         </div>
         <div className='results'>
-          <div className='title'>
-            <h1>1993 FORMULA ONE<br/>Belgian Grand Prix</h1>
-          </div>
           <div className="table">
             {/* {results.map((result, index) => (
               <div key={index}>
