@@ -1,0 +1,91 @@
+.results {
+    padding: 75px 0 75px 0;
+
+    .container {
+        max-width: 1920px;
+        padding-left: 75px;
+        padding-right: 75px;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+            max-width: 650px;
+            font-family: $squada;
+            font-size: 4rem;
+            font-weight: 500;
+            line-height: 1;
+            text-transform: uppercase;
+    
+            border-bottom: $black solid 5px;
+    
+            span {
+                font-size: 3.5rem;
+            }
+        }
+
+        .flag {
+            width: 150px;
+            height: 110px;
+
+            webkit-filter: drop-shadow(5px 5px 5px  $outline);
+            filter:  drop-shadow(5px 5px 5px  $outline);
+        }
+    }
+
+    .infos {
+        margin-top: 40px;
+        width: 100%;
+        border-collapse: collapse;
+
+        font-family: $bebas;
+        font-weight: 400;
+
+        .center {
+            text-align: center;
+       }
+
+       .pad {
+            padding-left: 20px;
+       }
+
+       .wid {
+            width: 10%;
+       }
+
+        thead {
+            tr {
+                th {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+
+                    font-size: 38px;
+                    color: $results;
+                    text-transform: uppercase;
+                    text-align: left;
+                };
+            }
+        }
+
+        tbody {
+            .gray {
+                background-color: rgba(128, 128, 128, 0.25);
+           }
+
+           td {
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                font-size: 32px;
+                color: $black;
+
+                text-align: left;
+           }
+
+        }
+    }
+}
