@@ -25,10 +25,6 @@ function App() {
           element: <Drivers/>
         },
         {
-          path: 'Main',
-          element: <Main/>
-        },
-        {
           path: 'Teams',
           element: <Teams/>
         },
