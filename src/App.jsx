@@ -6,6 +6,7 @@ import Drivers from './pages/Drivers';
 import Main from './pages/Main';
 import Teams from './pages/Teams';
 import Historic from './pages/Historic';
+import Results from './pages/Results';
 
 import './style.scss';
 
@@ -31,6 +32,10 @@ function App() {
         {
           path: 'Teams',
           element: <Teams/>
+        },
+        {
+          path: 'Results',
+          element: <Results/>
         },
         {
           path: 'Historic',
