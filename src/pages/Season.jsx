@@ -200,7 +200,7 @@ export default function Seasons(props) {
             <li className="item">
               <p className="text">Round {constructorData[9]?.round}</p>
               <h2 className="country">
-                {constructorData[9]?.Circuit.Location.country}
+                {constructorData[9]?.Circuit.Location.locality}
               </h2>
               <p className="text">{constructorData[9]?.date}</p>
               <div className="line"></div>
@@ -428,7 +428,7 @@ export default function Seasons(props) {
             <li className="item">
               <p className="text">Round {constructorData[21]?.round}</p>
               <h2 className="country">
-                {constructorData[21]?.Circuit.Location.country}
+                {constructorData[21]?.Circuit.Location.locality}
               </h2>
               <p className="text">{constructorData[21]?.date}</p>
               <div className="line"></div>
