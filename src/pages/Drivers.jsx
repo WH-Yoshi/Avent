@@ -27,7 +27,6 @@ export default function Drivers (props) {
         </section>
         <section className="middle-drivers">
         {drivers.map((driver, index) => (
-        // Afficher les pilotes à partir du 4e
         index < 3 && (
             <CardDriver
                 key={driver.Driver.driverId}
@@ -44,7 +43,6 @@ export default function Drivers (props) {
         </section>
         <section class="middle-drivers-btm">
         {drivers.map((driver, index) => (
-        // Afficher les pilotes à partir du 4e
         index >= 3 && (
             <CardDriver
                 key={driver.Driver.driverId}
