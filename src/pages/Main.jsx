@@ -146,7 +146,7 @@ export default function Main(props) {
           <h1>FIA FORUMA 2 WORLD CHAMPION</h1>
           <h2>Théo Pourchaire</h2>
           <p>Watch the career highlights of newly-crowned F2 Champion, Theo Pourchaire, who secured the title on the final day of the season at Yas Marina</p>
-          <button href="">WATCH NOW</button>
+          <a href="https://www.youtube.com/watch?v=-NSvlYUgPeI&pp=ygUSdGhlbyBwb3VyY2hhaXJlIGYx"><button>WATCH NOW</button></a>
         </section>
         <section className="right">
         </section>

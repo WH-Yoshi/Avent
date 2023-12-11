@@ -38,7 +38,7 @@ export default function Historic (props) {
               </div>
             </div>
         </div>
-        <div className='results'>
+        <div className='result'>
           <div className="table">
             <div className='columname'>
               <h3 className='pos'>POS</h3>

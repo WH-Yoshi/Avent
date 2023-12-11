@@ -2,19 +2,19 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
 
-const displayTimeOrStatus = (result) => {
+export default function Results(props) {
+  const location = useLocation();
+  const { seasonData } = location.state || {};
+  const [constructorData, setConstructorData] = useState([]);
+
+  const displayTimeOrStatus = (result) => {
     if (result.Time && result.Time.time) {
       return <td className="center">{result.Time.time}</td>;
     } else {
       return <td className="center">{result.status}</td>;
     }
   };
-
-export default function Results(props) {
-  const location = useLocation();
-  const { seasonData } = location.state || {};
-  const [constructorData, setConstructorData] = useState([]);
-
+  
   useEffect(() => {
     const fetchData = async () => {
         try {
