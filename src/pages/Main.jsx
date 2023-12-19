@@ -110,7 +110,7 @@ export default function Main(props) {
           <section id="drivers" className="card">
             <article className="top">
               <h1>DRIVERS</h1>
-              <img className="driver" src="/images/driver.png"></img>
+              <img className="driver" src="/images/drivers.jpg"></img>
             </article>
             <article className="btm">
               <p>Check every drivers of the 2023 season</p>

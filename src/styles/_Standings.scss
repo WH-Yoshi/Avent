@@ -281,7 +281,7 @@
     }
 
     #season{
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0.35%, #e1070005 100%), url('/images/season.jpg'), lightgray 50% / cover no-repeat;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.493) 0.35%, #e1070005 100%), url('/images/season.png'), lightgray 50% / cover no-repeat;
         background-blend-mode: hard-light, normal;
         background-size: cover;
         background-repeat: no-repeat;
@@ -417,7 +417,7 @@
 
     .right{
         border-radius: 0rem 0.625rem 0.625rem 0rem;
-        background: linear-gradient(270deg, rgba(24, 23, 28, 0.00) 0%, #4E3681 100%), url('/images/pourchaire.jpg'), lightgray 50% / cover no-repeat;
+        background: linear-gradient(270deg, rgba(24, 23, 28, 0.00) 0%, #4E3681 100%), url('/images/pourchaire.png'), lightgray 50% / cover no-repeat;
         width: 40%;
         height: 40vh;
         background-size: cover;
