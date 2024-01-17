@@ -15,7 +15,11 @@ Clone my website to a folder
 
 ```bash
   cd \path\to\an\empty\folder
+```
+```bash
   git clone https://github.com/WH-Yoshi/API.git
+```
+```bash
   cd \API\
 ```
 
