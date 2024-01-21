@@ -14,24 +14,24 @@ To be able to run this react project you will need to have installed [Node.js](h
 Clone my website to a folder
 
 ```bash
-  cd \path\to\an\empty\folder
+cd \path\to\an\empty\folder
 ```
 ```bash
-  git clone https://github.com/WH-Yoshi/API.git
+git clone https://github.com/WH-Yoshi/API.git
 ```
 ```bash
-  cd \API\
+cd \API\
 ```
 
 Install required packages
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server 
 ```bash
-  npm run dev
+npm run dev
 ```
 ## Related
 
