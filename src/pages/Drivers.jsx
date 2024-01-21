@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import CardDriver from './components/drivers';
 
-export default function Drivers (props) {
+export default function Drivers () {
 
     const [drivers, setDrivers] = useState([]);
 
@@ -21,7 +21,7 @@ export default function Drivers (props) {
 
     return (
         <>
-        <section class="top-drivers">
+        <section className="top-drivers">
             <h1>F1 DRIVERS 2023</h1>
             <h2>Check out the official line-up of the 2023 season </h2>
         </section>
@@ -41,7 +41,7 @@ export default function Drivers (props) {
         )
         ))}
         </section>
-        <section class="middle-drivers-btm">
+        <section className="middle-drivers-btm">
         {drivers.map((driver, index) => (
         index >= 3 && (
             <CardDriver
@@ -56,14 +56,14 @@ export default function Drivers (props) {
         ))}
         </section>
         
-        <section class="driver-historic">
-            <section class="left">
+        <section className="driver-historic">
+            <section className="left">
                 <h1>Racing Through Time: Unearthing</h1>
                 <h2>the Legends of Historic Formula 1 Grand Prix!</h2>
                 <p>Dive into the Golden Era of Formula 1 with our meticulously curated page showcasing the thrilling race rankings from the 1960s to the 1990s. Immerse yourself in the intense competition and iconic moments as you explore the historic Grand Prix standings that defined an era of motorsport excellence. From legendary rivalries to unforgettable victories, this collection of race rankings is a nostalgic journey through the annals of Formula 1 history, capturing the speed, drama, and triumph of a bygone era.</p>
-                <a href="https://www.youtube.com/watch?v=6NoFLFVpHlk" target="_blank"><button>WATCH NOW</button></a>
+                <a href="https://www.youtube.com/watch?v=6NoFLFVpHlk" target="_blank" rel="noreferrer"><button>WATCH NOW</button></a>
             </section>
-            <section class="right">
+            <section className="right">
             </section>
         </section>
         </>

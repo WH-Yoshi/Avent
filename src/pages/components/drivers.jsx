@@ -1,5 +1,3 @@
-import React from 'react';
-
 function CardDriver({ standing, points, driverSurname, driverName, flagPath, driverPath }) {
   return (
     <section className="card-driver">

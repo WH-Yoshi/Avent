@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
 
-export default function Results(props) {
+export default function Results() {
   const location = useLocation();
   const { seasonData } = location.state || {};
   const [constructorData, setConstructorData] = useState([]);
@@ -74,5 +74,4 @@ export default function Results(props) {
       </div>
     </section>
   );
-};
-
+}

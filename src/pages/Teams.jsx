@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-export default function Teams (props) {
+export default function Teams () {
 
   const [constructorData, setConstructorData] = useState([]);
 
@@ -160,4 +160,4 @@ export default function Teams (props) {
       </div>
     </>
   );
-};
+}
